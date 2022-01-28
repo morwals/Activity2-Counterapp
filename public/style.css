@@ -1,0 +1,49 @@
+html,
+body {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.main {
+  margin-top: 100px;
+  display: flex;
+}
+
+.box {
+  background-color: rgb(190, 226, 255);
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 18px 23px -4px rgba(0, 0, 0, 0.75);
+}
+
+h2 {
+  color: rgb(32, 32, 32);
+  font-family:'Lucida Sans';
+}
+
+h1 {
+  font-family: sans-serif;
+  color: rgb(17, 17, 73);
+  font-size: 90px;
+}
+
+button {
+  font-size: 30px;
+  width: fit-content;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: rgb(17, 17, 73);
+  color: whitesmoke;
+  border: 3px solid black;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 10px 6px 26px -4px rgba(0, 0, 0, 0.75);
+}
